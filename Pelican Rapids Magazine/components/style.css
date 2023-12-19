@@ -414,3 +414,33 @@ footer{
     margin: 10px;
     border-radius: 15px;
 }
+
+/* footer */
+footer {
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-info {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.contact-info a{color: #fff;}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.note {
+    font-size: 12px;
+    margin-top: 10px;
+}
