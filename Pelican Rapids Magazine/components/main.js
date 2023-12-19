@@ -47,6 +47,7 @@ function createDynamicPage(button) {
         <link rel="shortcut icon" href="/media/pr logo.png" type="image/x-icon">
         <title>${head.textContent}</title>
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
     <body>
       <nav>
@@ -67,6 +68,20 @@ function createDynamicPage(button) {
         <p>${intro.innerHTML}</p>
         <p class="article">${moreContent}</p>
       </div>
+      <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/cowasjeepens/" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+            <a href="https://l.instagram.com/?u=https%3A%2F%2Fchat.whatsapp.com%2FCHj2ugpKxMaLw0LqASHDtW&e=AT00CDwhD_cXix4WALnMt3KxH2cenemsT40t2sbRdvcNe1YaZuKD4LY2VcLs8zNRte9yvMbqXqVas8OFS5DnzjgbfMLThj-BJeBtLAm2VzId1PTT3L7TBEk" target="_blank"><i class="fab fa-whatsapp" aria-label="WhatsApp"></i></a>
+        </div>
+        <div class="contact-info">
+            Submissions: <a href="mailto:cowasjee.pens@gmail.com">cowasjee.pens@gmail.com</a>
+        </div>
+        <div class="note">
+            Note: Submissions first go through an AI detector and then a plagiarism checker. If it fails to prove its originality, that submission will be discarded. 
+            <br><br>
+        &copy; Pelican Rapids Magazine by Cowasjee Pens
+        </div>
+    </footer>
     </body>
     </html>`;
 
