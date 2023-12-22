@@ -359,6 +359,7 @@ footer{
     position: absolute;
     bottom: 20%;
     left: 50%;
+    width: 90%;
     transform: translateX(-50%);
     color: white;
     text-align: center;
