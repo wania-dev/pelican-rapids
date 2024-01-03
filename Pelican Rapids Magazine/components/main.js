@@ -66,7 +66,7 @@ function createDynamicPage(button) {
       <h1 style="font-family: Marcellus SC;">${head.outerHTML}</h1>
       <h3 style="font-weight: normal; text-align: center;">${author.innerHTML}</h3> <br>
         <p>${intro.innerHTML}</p>
-        <p class="article" style="min-height: 50vh;">${moreContent}</p>
+        <p class="article" style="min-height: 35vh;">${moreContent}</p>
       </div>
       <footer>
         <div class="social-icons">
