@@ -49,7 +49,7 @@ function createDynamicPage(button) {
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
-    <body style="min-height: 100vh;">
+    <body>
       <nav>
         <h1>Pelican Rapids</h1>
         <div class="sections">
@@ -66,7 +66,7 @@ function createDynamicPage(button) {
       <h1 style="font-family: Marcellus SC;">${head.outerHTML}</h1>
       <h3 style="font-weight: normal; text-align: center;">${author.innerHTML}</h3> <br>
         <p>${intro.innerHTML}</p>
-        <p class="article">${moreContent}</p>
+        <p class="article" style="min-height: 100vh;">${moreContent}</p>
       </div>
       <footer>
         <div class="social-icons">
